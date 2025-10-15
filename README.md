@@ -34,7 +34,7 @@ Before running the application, you need:
 ### 1. Clone the Repository
 ```bash
 git clone [YOUR_REPOSITORY_URL]
-cd [YOUR_REPOSITORY_NAME]
+cd Knowledge_base_project
 ```
 
 ### 2. Create and Activate Virtual Environment
@@ -55,22 +55,10 @@ source kb_env/bin/activate
 pip install Flask pypdf scikit-learn numpy google-genai
 ```
 
-### 4. Set Your API Key
-Set the environment variable **GEMINI_API_KEY**:
-
-**Windows (temporary session):**
-```bash
-SET GEMINI_API_KEY="PASTE_YOUR_KEY_HERE"
-```
-
-**macOS/Linux:**
-```bash
-export GEMINI_API_KEY="PASTE_YOUR_KEY_HERE"
-```
-
-### 5. Run the Application
+### 4. Run the Application
 From the project root directory:
 ```bash
+cd ..
 python -m backend.app
 ```
 
@@ -92,8 +80,9 @@ knowledge_base_project/
 ├── backend/
 │   ├── templates/
 │   │   └── index.html      # Frontend interface
-│   ├── uploads/            # Uploaded PDFs/TXTs
 │   ├── app.py              # Main Flask app: routing, sessions, uploads
+│   ├── main.py             # Flask backend query endpoint handler
+|   ├── test_query.py       # RAG console test script
 │   ├── pdf_loader.py       # File reading (.pdf/.txt) and chunking
 │   └── vector_store.py     # Multi-Document RAG engine (embedding, retrieval, synthesis)
 ├── kb_env/                 # Python Virtual Environment
@@ -113,8 +102,7 @@ knowledge_base_project/
 
 ---
 
-## ⚡ Contributing
-Contributions, issues, and feature requests are welcome!
+
 
 ---
 
