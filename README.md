@@ -25,7 +25,7 @@ The backend is built with **Python/Flask**, utilizing the `google-genai` library
 Before running the application, you need:
 
 - **Python 3.8+**
-- **Gemini API Key** (from [Google AI Studio](https://studio.google.com/))
+- **Gemini API Key** (from [Google AI Studio](https://aistudio.google.com/))
 
 ---
 
@@ -33,7 +33,7 @@ Before running the application, you need:
 
 ### 1. Clone the Repository
 ```bash
-git clone [[YOUR_REPOSITORY_URL]](https://github.com/Nikis-1/knowledge_base_project)
+git clone [(https://github.com/Nikis-1/knowledge_base_project)]
 cd knowledge_base_project
 ```
 
