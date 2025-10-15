@@ -70,7 +70,7 @@ Open your browser at: [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 - **Upload**: Click “Choose Files” to select `.pdf` or `.txt` files, then click **Upload**. Uploaded files appear in the “Uploaded Documents.”  
 - **Query**: Type a question related to the uploaded documents in “Ask a Question” and click **Search**.  
-- **Clear Context**: Click **Clear All Context** to remove all indexed documents from the RAG pipeline.
+- **Clear Context**: Click **Clear** to remove all indexed documents from the RAG pipeline.
 
 ---
 
