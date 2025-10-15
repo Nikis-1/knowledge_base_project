@@ -102,12 +102,12 @@ knowledge_base_project/
 
 ---
 
-[Demo Video](https://drive.google.com/file/d/1Cqqfx_nbGAoET8vN1Zf3Z-VLBo4vtMV-/view?usp=sharing)
+## [Demo Video](https://drive.google.com/file/d/1Cqqfx_nbGAoET8vN1Zf3Z-VLBo4vtMV-/view?usp=sharing)
 
 ---
 
-📝 Author
-Nikita Sanganeria
+## 📝 Author
+**Nikita Sanganeria** nikitasanganeria1@gmail.com
 
 ---
 
