@@ -33,7 +33,7 @@ Before running the application, you need:
 
 ### 1. Clone the Repository
 ```bash
-git clone [(https://github.com/Nikis-1/knowledge_base_project)]
+git clone https://github.com/Nikis-1/knowledge_base_project
 cd knowledge_base_project
 ```
 
