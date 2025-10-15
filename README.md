@@ -52,7 +52,7 @@ source kb_env/bin/activate
 
 ### 3. Install Dependencies
 ```bash
-pip install Flask pypdf scikit-learn numpy google-genai
+pip install Flask Werkzeug pypdf scikit-learn numpy google-genai
 ```
 
 ### 4. Run the Application
