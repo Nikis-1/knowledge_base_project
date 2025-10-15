@@ -1,0 +1,6 @@
+Flask
+Werkzeug
+pypdf
+scikit-learn
+numpy
+google-genai
